@@ -14,4 +14,4 @@ Steve Donovan is Original Gangster with [A Gentle Introduction to Rust](https://
 
 ## Errata
 
-* [Animation Station - Learning Rust the Analog Way](https://sudoroom.org/animation-station-lets-learn-memory-with-arrays-vectors/)
+* [Animation Station - Learning Rust the Analog Way](https://sudoroom.org/animation-station-lets-learn-memory-with-arrays-vectors/)![image](https://github.com/user-attachments/assets/1041fd2b-4640-493b-bd44-013e51476d58)
