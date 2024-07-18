@@ -10,3 +10,7 @@ https://www.sudoroom.org
 ## Favorite Tutor
 
 Steve Donovan is Original Gangster with [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
+
+## Errata
+
+* [Animation Station - Learning Rust the Analog Way](https://sudoroom.org/animation-station-lets-learn-memory-with-arrays-vectors/)
