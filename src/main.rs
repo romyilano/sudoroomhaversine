@@ -8,7 +8,7 @@ fn main() {
         name: "SudoRoom".to_string(), 
         coordinate: Coordinate { 
             latitude: 835004_f64, 
-            longitude: -122.2641282_f64
+            longitude: -122.2641282_f6struct4
         }
     };
     // (48.85341_f64, -2.34880_f64)
