@@ -1,4 +1,4 @@
-use std::io;
+
 
 const EARTH_RADIUS_KILOMETER: f64 = 6371.0_f64;
 
@@ -8,7 +8,7 @@ fn main() {
         name: "SudoRoom".to_string(), 
         coordinate: Coordinate { 
             latitude: 835004_f64, 
-            longitude: -122.2641282_f64
+            longitude: -122.2641282_f6struct4
         }
     };
     // (48.85341_f64, -2.34880_f64)
@@ -17,12 +17,6 @@ fn main() {
         name: "Paris".to_string(), 
         coordinate: Coordinate::new(48.85341_f64, -2.34880_f64)
     };
-
-    //  @37.7624302,-122.421111,17z/data=!3m1!4b1!4m6!3m5!1s0x808f7e23baa2b1df:0x81b913a252fb8d04!8m2!3d37.7624302!4d-122.4185361!16s%2Fg%2F1tfst37m?entry=ttu
-    let nb_location = Location::new("Noisebridge".to_string(), 37.7624302_f64, -122.421111_f64);
-    println!("Noisebridge location is {:?}", nb_location);
-
-    // let mut location = Location
 
     let distance = calculate_distance_earth(&location_sudoroom, &location_paris, EARTH_RADIUS_KILOMETER);
     println!("The distance between paris and sudoroom on the globe is {} km", distance);
@@ -65,15 +59,7 @@ impl Location {
     fn description(&self) -> String {
         format!("Location {} has coordinates of {}", self.name, self.coordinate.description())
     }
-
-    fn new(name: String, latitude: f64, longitude: f64) -> Self {
-        Self {
-            name, 
-            coordinate: Coordinate::new(latitude, longitude)
-        }
-    }
 }
-
 #[derive(Debug)]
 struct Coordinate {
     latitude: f64,
