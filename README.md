@@ -3,6 +3,8 @@
 A newbie adventure in Rust mixed with Math!
 This code is pretty dirty :) but it is all about the zen beginner's mind and falling in love with programming again through Rust.
 
+See [https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=a2c00d0baf9bb5df3f80ff08efc2f9b0](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=a2c00d0baf9bb5df3f80ff08efc2f9b0) for the playground
+
 See [https://sudoroom.org/morning-math-telenovela-parte-1-precision-globes-and-the-haversine-dream/](https://sudoroom.org/morning-math-telenovela-parte-1-precision-globes-and-the-haversine-dream/)
 
 We meet regularly at the SudoRoom Hackerspace in Oakland
